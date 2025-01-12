@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción a los costos',
+    numeroUnidad: '3',
+    tituloUnidad:
+      'Control y toma de decisiones basada en costos y presupuestos',
   },
   menuPrincipal: {
     menu: [

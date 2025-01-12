@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ globalData.numeroUnidad }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La gestión de costos es esencial para el éxito de las organizaciones, dado que permite optimizar recursos, establecer precios competitivos y garantizar la sostenibilidad. Los costos se clasifican, según su relación con la producción (fijos, variables, directos e indirectos) y su correcto análisis facilita decisiones estratégicas, control de inventarios y evaluación de desempeño. Métodos como el costeo ABC o por órdenes de trabajo, asignan costos de forma precisa, según actividades o pedidos específicos. Su adecuada administración fortalece la competitividad, rentabilidad y el cumplimiento normativo de las empresas. 
-              
-              p #[b "Cada paso que se da hacia una meta, por pequeño que parezca, representa una victoria que acerca al éxito".]
+              p.descripcion.mb-4 La unidad aborda el control y toma de decisiones basadas en costos y presupuestos, destacando el análisis costo-volumen-utilidad (CVU) y el punto de equilibrio como herramientas claves para maximizar la rentabilidad empresarial. Explica indicadores financieros, como liquidez, endeudamiento y rentabilidad, para evaluar la gestión de recursos. Además, se presentan ejemplos prácticos, incluyendo proyecciones de utilidades y control presupuestal, para demostrar cómo aplicar estas herramientas en la toma de decisiones estratégicas. Finalmente, se destacan la importancia del análisis financiero y las proyecciones en escenarios futuros para optimizar la gestión empresarial.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
