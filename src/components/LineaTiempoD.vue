@@ -75,20 +75,21 @@ export default {
 .linea-tiempo-d__item__content__title
   padding: 12px 26px
   border-radius: 5px 5px 0px 0px
-  background-color: #FAD3FC
+  background-color: #E3FBF2
 .linea-tiempo-d__item__content__title.active
-  background-color: #FDEFFE
+  background-color: #A4F1D6
 .linea-tiempo-d__item__content__slot
   border-radius: 0px 0px 5px 5px
-  background-color: #FDEFFE
+  background-color: #E3FBF2
 .linea-tiempo-d__item__number
-  background-color: #FAD3FC
+  background-color: #F5FDFA
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #FDEFFE !important
+  background-color: #A4F1D6 !important
+  color: black !important
 .linea-tiempo-d__item__dots:after
   border-left: 0px
 .linea-tiempo-d__item__dots:after
   border-left: 5px dotted #D2E1F1
 .fa-angle-up, .fa-angle-down
-  display: none
+  display: block
 </style>

@@ -10,9 +10,15 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/2.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi 
+      .tarjeta.color-acento-botones.p-3(x="19.5%" y="77%" numero="+")
+        .h5.mb-2 Volumen de producción
+        p A medida que aumenta, los costos fijos unitarios disminuyen, incrementando la rentabilidad por producto.
+      .tarjeta.color-acento-botones.p-3(x="50%" y="77%" numero="+")
+        .h5.mb-2 Relación costo-utilidad
+        p Un aumento en los costos fijos puede reducir las ganancias, mientras que un incremento en el volumen de producción, tiende a aumentar las utilidades.
+      .tarjeta.color-acento-botones.p-3(x="80.6%" y="77%" numero="+")
+        .h5.mb-2 Precio y volumen
+        p Un precio más alto suele reducir la demanda, afectando negativamente el volumen de ventas, siendo esencial equilibrar precio, costos, volumen y utilidad.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .p-5(style="background-color: #E4F2F4 ")
