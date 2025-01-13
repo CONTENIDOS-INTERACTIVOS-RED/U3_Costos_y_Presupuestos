@@ -150,7 +150,7 @@ export default {
   .icon
     transition: all 0.25s ease-in-out
     // background-color: #083E61 !important
-    background-color: darken($color-acento-botones, 30% ) !important
+    background-color: #004A54 !important
   &:hover
     .icon
       transform: scale(1.06)

@@ -10,8 +10,8 @@
             br
             br
             |Para comprender mejor su aplicación, se analiza en dos partes principales:
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Análisis financiero
+    #t_2_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.1]  Análisis financiero
     p.mb-4 El análisis financiero es un proceso que permite descomponer y evaluar los resultados económicos de una organización. Según Lavalle Burguete (2017), este análisis se divide en aspectos cualitativos y cuantitativos, los cuales son esenciales para realizar diagnósticos que apoyen la toma de decisiones estratégicas. Los objetivos principales son:
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -87,8 +87,8 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/16.png', alt='')
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Análisis de estados financieros
+    #t_2_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.2]  Análisis de estados financieros
     p.mb-4 Los estados financieros proporcionan una visión integral sobre la estabilidad y desempeño económico de una empresa. Estos informes son fundamentales para comprender el estado actual de una organización y prever su desempeño futuro.
       br
       br
@@ -338,8 +338,8 @@
       br
       |Para determinar esa rentabilidad mínima, se puede utilizar el modelo CAPM, que vincula variables como la rentabilidad libre de riesgo y una prima de riesgo.
     .row.justify-content-center.mb-5
-      .col-lg-8
-        .box-shadow.p-3.tarjeta
+      .col-lg-10
+        .box-shadow.p-4
           .row.justify-content-around.align-items-center
             .col-md-auto
               img(src="@/assets/curso/temas/video.svg", style="width: 90px;")
@@ -352,7 +352,7 @@
                   a.boton.color-acento-botones.texto-blanco(href='https://youtu.be/FwzY-V2olJQ?si=aVuh1-SGLfGAa-I4' target="_blank")
                     span Ver video
                     i.fas.fa-arrow-right
-    .bg-full-width.bg-color-2.mb-lg-5
+    .bg-full-width.bg-color-2
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -369,7 +369,32 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/35.png', alt='')
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=9152110" target="_blank" rel="noopener noreferrer") Macías Loor, F. I. & Delgado Suárez, M. (2023). Indicadores financieros y su relación con la toma de decisiones. Dialnet. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/journal/413/41370361003/" target="_blank" rel="noopener noreferrer") Mota Aragón, M. B., Álvarez del Castillo, R. & Núñez Mora, J. A. (2001). Índice de estrés financiero en los mercados emergentes. Realdyc.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/73GTsswNc_0?si=seCYWZdZiPmYb9Hu" target="_blank" rel="noopener noreferrer") Luz Castellanos Duque. (2016). Indicadores Financieros proyectados
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/FwzY-V2olJQ?si=aVuh1-SGLfGAa-I4" target="_blank" rel="noopener noreferrer") Miguel Fernández. (2024). COMO USAR LOS INDICADORES FINANCIEROS DEMANERA EFECTIVA
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

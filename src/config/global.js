@@ -137,37 +137,34 @@ export default {
   referencias: [
     {
       referencia:
-        'Vásquez Rojas, F. A. (2021). Costos y Presupuestos para financieros junior. Nueva Legislación SAS. ',
+        'Polo García, B. (2017). Contabilidad de costos en la alta gerencia: teórico-práctico. Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://elibro.net/es/ereader/tecnologicodeloriente/70840?page=1',
+    },
+    {
+      referencia:
+        'Vásquez Rojas, F. A. (2021). Costos y Presupuestos para financieros junior. Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/160288',
+    },
+    {
+      referencia:
+        'Lavalle Burguete, A. C. (2017). Análisis financiero. Editorial Digital UNID.',
+      link: 'https://elibro.net/es/ereader/tecnologicodeloriente/41183?page=4',
+    },
+    {
+      referencia:
+        'Córdoba Padilla, M. (2014). Análisis financiero. Ecoe Ediciones.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/160288?page=10  ',
+        'https://elibro.net/es/ereader/tecnologicodeloriente/114315?page=199',
     },
     {
       referencia:
-        'Mallo Rodríguez, C. & Jiménez Montañes, M. Á. (2015). Contabilidad de costes (3 ed.). Ediciones Pirámide.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/49101  ',
+        'Vásquez Rojas, F. A. (2021). Costos y Presupuestos para financieros junior. Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/160288',
     },
     {
       referencia:
-        'Fernández Álvarez, C. A. & Miñambres Puig, P. (2015). Contabilidad de costes. Dykinson. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/34255 ',
-    },
-    {
-      referencia:
-        'Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos. ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39 ',
-    },
-    {
-      referencia:
-        'Sinisterra Valencia, G. (2011). Contabilidad de costos. Ecoe Ediciones. ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/69014?page=11 ',
-    },
-    {
-      referencia:
-        'Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos. ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39 ',
+        'Polo García, B. (2018). Manual de presupuestos: teórico y práctico. Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68879',
     },
   ],
   glosario: [

@@ -204,12 +204,217 @@
           .col-lg-4.col-7: img(src='@/assets/curso/temas/44.png', alt='')
     p.mb-4 La planeación y el control presupuestal son fundamentales para alcanzar los objetivos financieros de Tecnofácil S.A.S. Un monitoreo constante y la aplicación de acciones correctivas oportunas fortalecen la estabilidad y rentabilidad de la empresa.
               
+    .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/articulo.oa?id=78253678003" target="_blank" rel="noopener noreferrer") Parra, J. & La Madriz, J. (2017). Presupuesto como instrumento de control financiero en pequeñas empresas de estructura familiar. Realdyc. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/9_C2SDxFWmU?si=PZI1QYC2AE39BdyB" target="_blank" rel="noopener noreferrer") Daniel Granero Sarrión. (2020). Ejemplo Control Presupuestario Reporting 2 (Parte 1) 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/YQKa_gaC0pw?si=bk_82YFHfETGchkG" target="_blank" rel="noopener noreferrer") Daniel Granero Sarrión. (2020). Ejemplo Control Presupuestario Reporting 3 
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Control presupuestal y toma de decisiones',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es la fórmula utilizada para estimar las existencias en función del periodo medio de ventas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Existencias = PMV x Costos de ventas x 365 días.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Existencias = PMV x Costos de ventas / 365 días.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Existencias = Costos de ventas x 365 días / PMV.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Existencias = PMV / Costos de ventas x 365 días.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué indicador mide la capacidad de una empresa para cumplir con obligaciones a corto plazo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Margen bruto.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Retorno sobre la inversión',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Índice de liquidez',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Margen neto.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué proyección inicial puede estimarse usando el ROI promedio y el BAII proyectado?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Costos totales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Activos totales.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Ventas proyectadas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Inventarios futuros.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Qué indicador se utiliza para analizar si los costos de producción están controlados?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Margen bruto.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Margen neto.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'ROI.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Índice de liquidez.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál es el beneficio principal de sumar el promedio del excedente al PIB proyectado para ventas futuras?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Ajustar proyecciones a la inflación del sector.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Considerar el impacto de políticas financieras externas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Reflejar un crecimiento realista basado en tendencias históricas.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Reducir la incertidumbre en los costos fijos.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -217,3 +422,8 @@ export default {
   },
 }
 </script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

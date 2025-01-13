@@ -10,13 +10,13 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/2.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="19.5%" y="77%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="19.5%" y="77%" numero="+")
         .h5.mb-2 Volumen de producción
         p A medida que aumenta, los costos fijos unitarios disminuyen, incrementando la rentabilidad por producto.
-      .tarjeta.color-acento-botones.p-3(x="50%" y="77%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="50%" y="77%" numero="+")
         .h5.mb-2 Relación costo-utilidad
         p Un aumento en los costos fijos puede reducir las ganancias, mientras que un incremento en el volumen de producción, tiende a aumentar las utilidades.
-      .tarjeta.color-acento-botones.p-3(x="80.6%" y="77%" numero="+")
+      .tarjeta.color-acento-contenido.p-3(x="80.6%" y="77%" numero="+")
         .h5.mb-2 Precio y volumen
         p Un precio más alto suele reducir la demanda, afectando negativamente el volumen de ventas, siendo esencial equilibrar precio, costos, volumen y utilidad.
     .row.justify-content-center.mb-5
@@ -71,8 +71,8 @@
             p.mb-0 Ayuda a gestionar los recursos y costos operativos, para alcanzar l balance financiero.
     p.mb-4 Esta metodología asegura un análisis integral para la toma de decisiones estratégicas en la gestión empresarial, enfocándose en el control eficiente de costos y la maximización de utilidades.
     .row.justify-content-center.mb-5
-      .col-lg-8
-        .box-shadow.p-3.tarjeta
+      .col-lg-10
+        .box-shadow.p-4
           .row.justify-content-around.align-items-center
             .col-md-auto
               img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
@@ -85,8 +85,8 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1  Margen de seguridad
+    #t_1_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.1]  Margen de seguridad
     p.mb-4 El margen de seguridad se refiere a la cantidad de unidades vendidas que exceden el punto de equilibrio. Un margen amplio indica que la empresa tiene mayor capacidad para afrontar riesgos en sus ventas, sin incurrir en pérdidas. Por el contrario, un margen reducido implica un alto riesgo de sufrir pérdidas.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -120,8 +120,8 @@
               i.fas.fa-circle.fa-xs
               p.mb-0 Esto significa que la empresa puede vender 8,750 unidades adicionales por encima del punto de equilibrio antes de incurrir en pérdidas.
   
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Planeación de utilidades
+    #t_1_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.2]  Planeación de utilidades
     p.mb-4 Desde una perspectiva financiera, las empresas buscan generar un beneficio, comúnmente denominado utilidad. Con base en el cálculo del punto de equilibrio, es posible proyectar la utilidad que la organización pretende alcanzar para cumplir con los objetivos financieros definidos por la gerencia.
     .bg-full-width.p-5.mb-5(style="background-color: #FDF4EE")
       h4 Ejercicio.
@@ -148,8 +148,8 @@
         li.d-flex.align-items-center
           i.fas.fa-circle.fa-xs
           p.mb-0 Utilidad bruta: 47’250.000 – (15’750.000 + 1’500.000) = 30’000.000
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Punto de equilibrio ponderado o de varios productos
+    #t_1_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.3]  Punto de equilibrio ponderado o de varios productos
     p.mb-4 Consiste en realizar el cálculo del punto de equilibrio, para empresas que manejan varias referencias, o productos. Para aplicar lo anterior, se utilizará la siguiente información:
       br
       br
@@ -350,9 +350,9 @@
             tr
               td.fw-bold(colspan='3') (=) RESULTADO DEL EJERCICIO
               td $ 50.000.000
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .box-shadow.p-3.tarjeta
+    .row.justify-content-center
+      .col-lg-10
+        .box-shadow.p-4
           .row.justify-content-around.align-items-center
             .col-md-auto
               img(src="@/assets/curso/temas/video.svg", style="width: 90px;")
@@ -370,7 +370,28 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.redalyc.org/articulo.oa?id=653868369008" target="_blank" rel="noopener noreferrer") Tapia N., F., Gavilánez G., A., Guerra P., T., Urbina M., B. & Tapia C., E. (2018). Modelo costo-volumen-utilidad aplicado al turismo alternativo, segmento ciclismo de aventura, en Ecuador. Realdyc
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=6934148" target="_blank" rel="noopener noreferrer") Marsano Delgado, J. M. E. (2004). Una metodología para analizar la relación costo-volumen-utilidades en las empresas hoteleras. Dialnet.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/19HwworSeWc?si=rZzVjD7w6OmRpQws" target="_blank" rel="noopener noreferrer") Universidad continental – Modalidad a distancia. (2021). El modelo CVU y la fijación de precios
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
