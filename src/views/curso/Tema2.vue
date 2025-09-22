@@ -67,6 +67,8 @@
           .custom-image-card__text.p-5
             h4.mb-2 Cuantitativo
             p.mb-0 Determina la producción de estos elementos, mediante cifras e indicadores claves.
+
+    p.mb-4 Las contribuciones del análisis financiero, son:
     .mb-5(data-aos="fade-up" style="background-color: #ECFCF6")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -106,6 +108,25 @@
           p.mb-0 Realizar proyecciones para la toma de decisiones. 
     p.mb-4 La evaluación de los estados financieros a través de indicadores claves, proporciona una visión clara de la situación económica de una empresa y sus oportunidades de mejora.
     //todo! Componente de audio 
+
+
+    .bg-full-width.bg-color-1.mb-5
+      .p-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+
+            p.mb-4 Para profundizar en el tema, se invita a revisar el siguiente audio:
+
+            TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
+              texto="Indicadores claves y beneficios del análisis financiero"
+              tiempo
+              :audio="require('../../assets/curso/podcast/podcast1.mp3')"
+            )
+    
+
+
+
+
     p.mb-4 El análisis financiero y de estados financieros, son pilares fundamentales en la gestión organizacional. Estas herramientas permiten identificar áreas de mejora, garantizar la sostenibilidad económica y apoyar el cumplimiento de metas estratégicas. Utilizar estos indicadores de forma efectiva, contribuye significativamente a la estabilidad y crecimiento de la organización.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1.

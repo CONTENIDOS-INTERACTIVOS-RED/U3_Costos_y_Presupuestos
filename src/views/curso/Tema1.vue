@@ -82,7 +82,7 @@
                   h3.mb-1 Ejemplo
                   p Invitamos a revisar este ejemplo práctico sobre el cálculo del punto de equilibrio, donde se detalla cómo una empresa puede determinar el nivel de ventas necesario, para cubrir sus costos totales. Este análisis es fundamental para la toma de decisiones estratégicas, asegurando la sostenibilidad financiera.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-arrow-right
     #t_1_1.titulo-segundo(data-aos='fade-right')
@@ -350,7 +350,7 @@
             tr
               td.fw-bold(colspan='3') (=) RESULTADO DEL EJERCICIO
               td $ 50.000.000
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
         .box-shadow.p-4
           .row.justify-content-around.align-items-center

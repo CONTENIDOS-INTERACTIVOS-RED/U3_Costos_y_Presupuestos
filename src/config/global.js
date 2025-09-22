@@ -158,65 +158,70 @@ export default {
     },
     {
       referencia:
-        'Vásquez Rojas, F. A. (2021). Costos y Presupuestos para financieros junior. Grupo Editorial Nueva Legislación SAS.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/160288',
-    },
-    {
-      referencia:
         'Polo García, B. (2018). Manual de presupuestos: teórico y práctico. Grupo Editorial Nueva Legislación SAS.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68879',
     },
   ],
   glosario: [
     {
-      termino: 'Costos directos',
+      termino: 'Auditoría',
       significado:
-        'Son aquellos costos que se pueden asignar directamente a la producción de un bien o servicio, como los materiales y la mano de obra directa.',
+        'Proceso sistemático para examinar, evaluar y verificar la información financiera, operativa o administrativa de una organización, asegurando cumplimiento de normas, regulaciones y políticas establecidas para garantizar transparencia y precisión.',
     },
     {
-      termino: 'Costos indirectos',
+      termino: 'BAII (Beneficio Antes de Intereses e Impuestos)',
       significado:
-        'Son aquellos costos que no se pueden asignar directamente a un producto o servicio específico, como los costos de administración, renta o energía.',
+        'Indicador financiero que mide el rendimiento operativo de una empresa antes de descontar intereses e impuestos, mostrando su capacidad para generar ganancias mediante las operaciones principales del negocio.',
     },
     {
-      termino: 'Costos fijos',
+      termino: 'Costos',
       significado:
-        'Son costos que no cambian con el nivel de producción o ventas, como el alquiler de la fábrica o los sueldos del personal administrativo.',
+        'Gastos incurridos en la producción o adquisición de bienes y servicios, incluyendo materiales, mano de obra y otros elementos necesarios para llevar a cabo las operaciones de una organización.',
     },
     {
-      termino: 'Costos variables',
+      termino: 'Liquidez',
       significado:
-        'Son aquellos costos que varían directamente con el nivel de producción, como los materiales directos y la mano de obra directa.',
+        'Capacidad de una empresa para cumplir con sus obligaciones financieras de corto plazo, analizando la facilidad para convertir activos en efectivo sin perder su valor en el proceso.',
     },
     {
-      termino: 'Costos totales',
+      termino: 'Punto de Equilibrio',
       significado:
-        'Es la suma de todos los costos asociados con la producción de un bien o servicio, que incluye los costos directos e indirectos, fijos y variables.',
+        'Nivel de ventas o ingresos en el que los costos totales igualan los ingresos totales, resultando en una situación sin pérdidas ni ganancias para la empresa.',
     },
     {
-      termino: 'Costos de oportunidad',
+      termino: 'Rentabilidad',
       significado:
-        'Son los beneficios perdidos por elegir una opción sobre otra. Este costo se refiere a lo que se deja de ganar, al tomar una decisión en lugar de otra.',
+        'Capacidad de una empresa para generar ganancias en relación con sus ingresos, activos o patrimonio, evaluando la eficiencia en el uso de recursos para crear valor.',
     },
     {
-      termino: 'Costeo absorbente',
+      termino: 'Riesgo',
       significado:
-        'Método que asigna tanto los costos fijos como los variables, a los productos, considerando todos los costos de producción.',
+        'Probabilidad de ocurrencia de eventos que puedan afectar negativamente los objetivos financieros, operativos o estratégicos de una organización, incluyendo incertidumbres internas y externas.',
     },
     {
-      termino: 'Costeo directo o variable',
+      termino: 'ROI (Retorno sobre la Inversión)',
       significado:
-        'Método que solo considera los costos variables al calcular el costo de producción de un producto, excluyendo los costos fijos.',
+        'Indicador financiero que mide la rentabilidad de una inversión, calculando el porcentaje de beneficios generados en relación con los recursos invertidos por la empresa o individuo.',
     },
     {
-      termino: 'Punto de equilibrio',
+      termino: 'Rotación de cartera',
       significado:
-        'Es el nivel de ventas o producción en el que los ingresos totales son iguales a los costos totales, sin generar ni pérdidas ni ganancias.',
+        'Indicador que mide la eficiencia en la gestión de cuentas por cobrar, evaluando el tiempo promedio que tarda una empresa en recuperar los créditos otorgados a sus clientes.',
     },
     {
-      termino: 'Margen de contribución',
+      termino: 'Rotación de inventarios',
       significado:
-        'Es la diferencia entre los ingresos por ventas y los costos variables, que cubre los costos fijos y genera ganancias.',
+        'Indicador financiero que mide cuántas veces se renueva el inventario en un periodo específico, evaluando la eficiencia en la gestión y utilización de existencias para evitar exceso o desabastecimiento.',
+    },
+    {
+      termino: 'Utilidad',
+      significado:
+        'Ganancia obtenida por una empresa después de deducir todos los costos y gastos operativos, financieros y fiscales, reflejando el beneficio neto generado por las operaciones del negocio.',
+    },
+    {
+      termino: 'Valor Neto Realizable',
+      significado:
+        'Valor estimado que se obtendría al vender un activo, menos los costos asociados a su venta, reflejando la recuperación económica posible de los bienes en el mercado actual.',
     },
   ],
 }
